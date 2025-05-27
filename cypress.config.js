@@ -2,9 +2,9 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    //baseUrl: 'https://qauto.forstudy.space/',
-    defaultCommandTimeout: 5000,
-    retries: { "runMode": 2, "openMode": 3 },
+    baseUrl: 'https://guest:welcome2qauto@qauto.forstudy.space/',
+    defaultCommandTimeout: 3000,
+    retries: { "runMode": 1, "openMode": 2 },
     video: false,
     screenshotOnRunFailure: true,
     testIsolation: true
