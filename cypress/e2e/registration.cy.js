@@ -1,4 +1,6 @@
-/// <reference types="cypress" />
+/*/// <reference types="cypress" />
+import SignInForm from "../pom/forms/SignInForm.js";  
+import HomePage from "../pom/pages/HomePage.js";
 
 const email = `bohachenko.anna+test${Date.now()}@gmail.com`;
 const password = `Qwerty123456`;
@@ -309,3 +311,4 @@ describe("open registration form", () => {
     });
   });
 });
+*/

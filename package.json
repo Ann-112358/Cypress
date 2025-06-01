@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:run": "cypress run --spec cypress/e2e/registration_tests.cy.js"
+    "cy:run": "cypress run --config-file cypress.config.js",
+    "cy:run2": "cypress run --config-file cypress.config2.js"
   },
   "repository": {
     "type": "git",
