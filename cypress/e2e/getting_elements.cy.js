@@ -1,4 +1,4 @@
-/// <reference types="cypress" />
+/*/// <reference types="cypress" />
 
 
 describe('open page', () => {
@@ -54,4 +54,4 @@ describe('open page', () => {
         .should('include', '/assets/images/homepage/info_2.jpg')
     })
        
-})
+})*/

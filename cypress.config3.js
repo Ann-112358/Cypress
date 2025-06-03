@@ -10,7 +10,7 @@ module.exports = defineConfig({
     testIsolation: true
   },
   env: {
-    AUTH_EMAIL: `bohachenko.anna+test1@gmail.com`,
+    AUTH_EMAIL: `bohachenko.anna+test${Date.now()}@gmail.com`,
     AUTH_PASSWORD: `Qwerty123456`
   }
 });
