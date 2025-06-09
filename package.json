@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:run": "cypress run --spec cypress/e2e/garage.cy.js --config-file cypress.config.js",
     "cy:run2": "cypress run --spec cypress/e2e/garage.cy.js --config-file cypress.config2.js",
-    "cy:run3": "cypress run --spec cypress/e2e/registration.cy.js --config-file cypress.config3.js"
+    "cy:run3": "cypress run --spec cypress/e2e/registration.cy.js --config-file cypress.config3.js",
+    "cy:run4": "cypress run --spec \"cypress/e2e/task1.cy.js,cypress/e2e/task2.cy.js,cypress/e2e/task3.cy.js\" --config-file cypress.config4.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
   "homepage": "https://github.com/Ann-112358/Cypress#readme",
   "devDependencies": {
     "cypress": "^14.3.3"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.2"
   }
 }
